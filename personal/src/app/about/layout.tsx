@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {ReactNode} from 'react';
 
-export default function AboutLayout({children}) {
+interface AboutLayoutType{
+  children : ReactNode;
+}
+const AboutLayout: React.FC<AboutLayoutType> = ({children}) => {
   return (
     <>
      <div>AboutLayout</div>
@@ -8,3 +11,4 @@ export default function AboutLayout({children}) {
     </>
   )
 }
+export default AboutLayout;

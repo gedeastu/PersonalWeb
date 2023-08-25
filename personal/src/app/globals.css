@@ -2,18 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 .bgGradient{
-    background: linear-gradient(to top left,#984D38,#181E41);
-    background-size: 150%  150%;
-    animation: gradient 5s ease infinite;
+    background: linear-gradient(-45deg, #984D38, #181E41, #272d50,#bc7c28);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 @keyframes gradient {
     0%,100%{
-        background-position: 0%;
+        background-position: 0% 75%;
     }
     50%{
         background-position: 100% 50%;
     }
-    75%{
+    /* 75%{
+        background-position: 50% 100%;
+    } */
+}
+@media (max-width: 576px) {
+    .bgGradient{
+    background: linear-gradient(-45deg, #984D38, #181E41, #2f3c83,#bc7c28);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+  }
+  @keyframes gradient {
+    0%,100%{
+        background-position: 0% 50%;
+    }
+    50%{
         background-position: 50% 100%;
     }
+    /* 75%{
+        background-position: 50% 100%;
+    } */
+}
 }
