@@ -1,0 +1,19 @@
+{
+  "navLink": [
+    {
+      "id": 1,
+      "nameLink":"Home",
+      "hrefLink":"/"
+    },
+    {
+      "id": 2,
+      "nameLink":"About",
+      "hrefLink":"/about"
+    },
+    {
+      "id": 3,
+      "nameLink":"Service",
+      "hrefLink":"/service"
+    }
+  ]
+}
