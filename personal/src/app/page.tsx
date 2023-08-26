@@ -5,9 +5,8 @@ import Navbar from './components/navbar'
 export default function Home() {
   return (
     <>
-    <article className='bgGradient w-screen h-screen overflow-hidden'>
+    <article className=''>
     <header className='w-[100rem] mx-auto flex flex-col'>
-    <Navbar/>
     </header>
     <main>
     <div className='mt-14 flex flex-col h-[25rem] justify-between gap-5'>
