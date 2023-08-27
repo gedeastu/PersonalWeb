@@ -1,3 +1,3 @@
 # PersonalWeb
-GA TAU INI BAKAL JADI ATAU NGGA
-(DOA'IN AJA HEHE)
+I don't know it will done or not
+#prayforme:)
